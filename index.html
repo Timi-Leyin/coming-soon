@@ -1,0 +1,86 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /> 
+</head>
+ <body>
+  <header id="">
+      <div class="header__logo">
+        <a href="/"><img src="./img/logo.svg" alt="Hirepesin logo"></a>
+      </div>
+  </header>
+
+  <video src="./img/Entrance of a small house.mp4"  autoplay loop id="video-bg"></video>
+  <div class="video-bg-container">
+</div>
+  <section class="banner-main">
+    <main>
+        <h5 class="">COMING SOON</h5>
+        <p>
+          We strive to connect our users to top 
+          notch and professional artisans and handymen near your
+          location.Using hirepesin, you have access or connect to users
+          who are in need of services of arisans who are seeking for quick jobs <span>&#128519; &#128512;</span> .
+        </p>
+        <h1>Get notified when we launch <i class="fa fa-paper-plane"></i></h1>
+      
+            <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://hirepesin.us1.list-manage.com/subscribe/post?u=9b6ac4d9f94239ca9d9c27159&amp;id=37ee72675d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+   <!-- <input type="text" name="b_9b6ac4d9f94239ca9d9c27159_37ee72675d"  value=""> -->
+   <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
+    
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+            
+        
+        <div class="socials">
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fa fa-envelope"></span></a>
+        </div>
+     </main>
+
+    
+  </section>
+  <footer id="">
+      <span role="img"> &copy; 2021 - All right reserved</span>
+  </footer>
+
+
+
+  <script src="./js/all.min.js"></script>
+  <script>
+    window.onerror=(e)=>{
+      console.log('e');
+    }
+   window.addEventListener('DOMContentLoaded',()=>{
+   let videoBg=document.querySelector('#video-bg')
+   const container=document.querySelector('.video-bg-container')
+ videoBg.addEventListener('error',()=>{
+   console.log('tesr');
+   videoBg.remove();  
+   const fallBackImageBg=document.createElement('img');
+   fallBackImageBg.src='./fallback.png';
+   fallBackImageBg.setAttribute('id','video-bg-fallback');
+   document.body.appendChild(fallBackImageBg)
+ })
+
+ videoBg.play()
+   });
+
+  </script>
+ </body>
+</html>
