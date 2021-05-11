@@ -182,6 +182,7 @@ footer {
   }
   main {
     text-align: left;
+transform:translate(15px);
     padding-left: 6px;
   }
   main h5 {
