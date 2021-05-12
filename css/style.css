@@ -178,11 +178,11 @@ footer {
   }
   .banner-main {
     height: 80vh;
+transform:translate(30px);
     padding: 5% 10px;
   }
   main {
     text-align: left;
-transform:translate(20px);
     padding-left: 6px;
   }
   main h5 {
