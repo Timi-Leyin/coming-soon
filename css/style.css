@@ -178,7 +178,7 @@ footer {
   }
   .banner-main {
     height: 80vh;
-transform:translate(30px);
+transform:translateY(30px);
     padding: 25% 5px;
   }
   main {
