@@ -43,7 +43,7 @@ html, body {
 }
 
 header {
-  position: absolute;
+  position: sticky;
   z-index: 10;
 }
 
