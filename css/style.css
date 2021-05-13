@@ -165,8 +165,7 @@ main .socials a:hover {
 }
 
 footer {
-  position: sticky;
-  bottom: 0;
+  position: relative;
   text-align: center;
   padding: 10px;
 }
