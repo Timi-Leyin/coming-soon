@@ -165,7 +165,7 @@ main .socials a:hover {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   text-align: center;
   padding: 10px;
@@ -178,8 +178,8 @@ footer {
   }
   .banner-main {
     height: 80vh;
-transform:translateY(30px);
-    padding: 10% 5px;
+transform:translateY(0px);
+    padding: 2% 5px;
   }
   main {
     text-align: left;
