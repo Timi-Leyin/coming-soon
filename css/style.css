@@ -166,8 +166,8 @@ main .socials a:hover {
 
 footer {
   position: relative;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding: 14px 0;
 }
 
 @media screen and (max-width: 365px) {
