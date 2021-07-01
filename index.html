@@ -5,82 +5,120 @@
  <head>
   <meta charset="UTF-8" />
 <meta name="description" content="Use HirePesin app to find and locate artisans and  handymen services nearby.Using hirepesin, you have access or connect to users who are in need of services of artisans who are seeking for quick jobs.
-Anyone can register his/her hustle to be hired online. " />
+Anyone can register his/her hustle to be hired online.🙂😎" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hirepesin - Coming soon</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />  -->
+  <link rel="stylesheet" href="./css/tailwind.min.css">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /> 
 </head>
  <body>
-  <header id="">
-      <div class="header__logo">
-        <a href="/"><img src="./img/logo.svg" alt="Hirepesin logo"></a>
-      </div>
-  </header>
+<!-- HEADER -->
+<header class="header h-20 absolute z-10 left-0 right-0 flex px-20 justify-between items-center">
+  <div class="header__logo flex-shrink-0"><img src="./img/logo copy.svg" alt="Hirepesin logo" class="logo"></div>
 
-  <video src="./img/Entrance of a small house.mp4"  autoplay muted loop id="video-bg"></video>
-  <div class="video-bg-container">
-</div>
-  <section class="banner-main">
-    <main>
-        <h5 class="">COMING SOON</h5>
-        <p>
-Use HirePesin app to find and locate artisans and  handymen services nearby.Using hirepesin, you have access or connect to users who are in need of services of artisans who are seeking for quick jobs.
-Anyone can register his/her hustle to be hired online.🙂😎
-   </p>
-        <h1>Get notified when we launch <i class="fa fa-paper-plane"></i></h1>
-      
-            <!-- Begin Mailchimp Signup Form -->
+  <ul class="header__nav-links flex items-center justify-evenly w-100 text-sm">
+    <li><a  class='active' href="" rel="" class="link px-3">Home</a></li>
+    <li><a href=""  rel="" class="link px-3">About</a></li>
+    <li><a href=""  rel="" class="link px-3">Services</a></li>
+    <li><a href=""  rel="" class="link px-3">FAQ</a></li>
+    <li><button class='btn pointer header_get-notified-btn p-2 px-4 mx-4 rounded-2xl ring-2' type="submit">Get Nofified</button> </li>
+  </ul>
+
+  <div class="hamburger mt-5 pointer hidden">
+  <span class="block w-6  h-1 my-1 rounded bg-white bar bar1"></span>
+  <span class="block w-6  h-1 my-1 rounded bg-white bar bar2"></span>
+  <span class="block w-6  h-1 my-1 rounded bg-white bar bar3"></span>
+  </div>
+</header>
+
+<!-- Banner wrapper -->
+  <!-- Hero -->
+<section id="banner" class="hero flex justify-around items-center p-6 relative">
+  <!-- Intro text -->
+  <div class="intro-text m-1  my-20">
+   <div class="container">
+    <h3 class="text-sm uppercase font-bold opacity-80">- coming soon -</h3>
+    <h1 class="heading text-5xl font-bold py-3">
+      <span class="inner-heading-text block py-2">Get notified when </span>
+      <span class="inner-heading-text block py-2">we launch</span>
+    </h1>
+    <p class="intro-paragraph text-xsm opacity-90 pb-8 max-w-lg">
+      Use HirePesin app to find and locate artisans and  handymen services nearby. 
+      Using hirepesin, you have access or connect to users who are in need of services of artisans who are seeking for quick jobs.
+      Anyone can register his/her hustle to be hired online.🙂😎
+    </p>
+   </div>
+     
+  <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
-<form action="https://hirepesin.us1.list-manage.com/subscribe/post?u=9b6ac4d9f94239ca9d9c27159&amp;id=37ee72675d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-   <!-- <input type="text" name="b_9b6ac4d9f94239ca9d9c27159_37ee72675d"  value=""> -->
-   <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
+  <form action="https://hirepesin.us1.list-manage.com/subscribe/post?u=9b6ac4d9f94239ca9d9c27159&amp;id=37ee72675d" autocomplete="off" aria-autocomplete="none" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate relative flex bg-white h-16 rounded-full items-center" target="_blank" validate>
     
-</form>
+    <label for="email" class="absolute z-10 bg-green-opacity-70 p-1 px-2 text-black rounded-full text-xsm position -top-4 left-2 ">Email Address</label>
+
+    <div class="container h-inherit flex items-center">
+      <span class="icon input-status block ml-4 mr-1 mt-1"><i class="text-black text-2xl fa fa-envelope-open"></i></span>
+      <input type="email" title="Email Address" value="" name="EMAIL" class="email  text-black px-2 text-xsm outline-none" id="mce-EMAIL" placeholder="Email Address" required>
+    </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <!-- <input type="text" name="b_9b6ac4d9f94239ca9d9c27159_37ee72675d"  value=""> -->
+     <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button block p-4 text-black px-6 text-sm shadow-lg hover:text-white transition-all text-bold bg-green mx-2 rounded-full">Subscribe</button>
+      
+  </form>
+  <p class="py-1 px-4 max-w-sm">We're currently working on bring you a <span class="inline-block px-4 bg-green-400  rounded-full bg-green-opacity-70">better</span> experience.</p>
+  </div>
+  
+  <!--End mc_embed_signup-->
+
+  </div>
+
+  <!-- Banner image -->
+  <div class="intro-hero-image  ">
+    <img src="./img/Hero left.svg" alt="a man holding book and carying a bag">
+  </div>
+
+</section>
+  <!-- Wave at the bottom of hero section -->
+<div id="wave" class>
+  <img src="./img/wave.svg" alt="wave">
 </div>
 
-<!--End mc_embed_signup-->
-            
-        
-        <div class="socials">
-            <a href="https://twitter.com/hirepesin"><span class="fab fa-twitter"></span></a>
-            <a href="https://facebook/hirepesin"><span class="fab fa-facebook"></span></a>
-            <a href="https://Instagram.com/hirepesin"><span class="fab fa-instagram"></span></a>
-        </div>
-     </main>
 
-    
-  </section>
-  <footer id="">
-      <span role="img"> &copy; 2021 - All right reserved</span>
+<!-- about us -->
+<section id="about" class="r m-auto mx-10">
+<!-- about us image -->
+<div class="about-us-image-container">
+  <img src="./fallback.png" class="about-us-img" alt="">
+</div>
+
+<!-- about us text -->
+<div class="about-us-text">
+  <div class="box box-green absolute -top-6 -left-5"></div>
+  <hr>
+  <h2 class="about-heading">Great Job Portal Agency</h2>
+  <h4 class="about-sub-heading font-weight-thin flex">Since 2003 <hr> </h4>
+  <h5 class="about-sub-heading-title py-2 font-weight-thin">Lorem ipsum dolor sit amet consecteing elit. bus!</h5>
+  <p class="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque ratione dolorum, consectetur esse sed quod fuga explicabo error, sequi molestiae a beatae debitis eos.</p>
+  <button class="btn btn-outline">Learn more  <i class="fa fa-arrow-right"></i></button>
+</div>
+</section>
+
+
+  <!-- FOOTER  -->
+  <footer id="footer" class="h-22 text-center m-auto py-2">
+    <ul class="footer__links flex justify-center">
+      <li class="py-1 px-3 text-small"><a class="underline hover:no-underline" href="/privacy.html" rel ='' class="f-link">Privacy Policy</a></li>
+      <li class="py-1 px-3 text-small"><a class="underline hover:no-underline" href="/privacy.html" rel ='' class="f-link">Terms & Conditions</a></li>
+      <li class="py-1 px-3 text-small"><a class="underline hover:no-underline" href="mailto:hirepesin@gmail.com" rel ='' class="f-link">Email us</a></li>
+    </ul>
+      <div> &copy; 2021 Hirepesin. All rights reserved. </div>
   </footer>
 
 
 
-  <script src="./js/all.min.js"></script>
-  <script>
-    window.onerror=(e)=>{
-      console.log('e');
-    }
-   window.addEventListener('DOMContentLoaded',()=>{
-   let videoBg=document.querySelector('#video-bg')
-   const container=document.querySelector('.video-bg-container')
- videoBg.addEventListener('error',()=>{
-   console.log('tesr');
-   videoBg.remove();  
-   const fallBackImageBg=document.createElement('img');
-   fallBackImageBg.src='./fallback.png';
-   fallBackImageBg.setAttribute('id','video-bg-fallback');
-   document.body.appendChild(fallBackImageBg)
- })
-
- videoBg.play()
-   });
-
-  </script>
+<script src="./all.min.js"></script>
  </body>
 </html>
