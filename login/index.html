@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/tailwind.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/all.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+<header class="header h-20 z-10 left-0 right-0 flex px-20 justify-between items-center">
+    <div class="header__logo flex-shrink-0"><img src="/img/logo copy.svg" alt="Hirepesin logo" class="logo"></div>
+  
+    <ul class="header__nav-links flex items-center justify-evenly w-100 text-sm">
+      <li><a  href="" rel="" class="link px-3">Home</a></li>
+      <li><a href=""  rel="" class="link px-3">About</a></li>
+      <li><a href=""  rel="" class="link px-3">Services</a></li>
+      <li><a href=""  rel="" class="link px-3">FAQ</a></li>
+      <li><button class='btn pointer header_get-notified-btn p-2 px-4 mx-4 rounded-2xl ring-2' type="submit">Get Nofified</button> </li>
+    </ul>
+  
+    <div class="hamburger mt-5 pointer hidden">
+    <span class="block w-6  h-1 my-1 rounded bg-white bar bar1"></span>
+    <span class="block w-6  h-1 my-1 rounded bg-white bar bar2"></span>
+    <span class="block w-6  h-1 my-1 rounded bg-white bar bar3"></span>
+    </div>
+  </header>
+  
+
+
+<section id="login" class="">
+
+<div class="cont text-center">
+
+<div class="heading">
+    <h1 class="font-bold">Login to your Account</h1>
+    <p class="text-center">Become an Artisan</p>
+</div>
+
+
+<div class="login_with">
+    <button class="_btn _btn-flow">
+    <div class="__flow"></div>
+    <div class="_btn-content flex items-center">
+        <span class="_btn-icon block"><i class="fab fa-google"></i></span>
+        <span class="_btn-text">Login with Google</span>
+    </div>
+    </button>
+
+
+    <button class="_btn _btn-flow">
+    <div class="__flow"></div>
+    <div class="_btn-content flex items-center">
+        <span class="_btn-icon block"><i class="fab fa-facebook"></i></span>
+        <span class="_btn-text">Login with Facebook</span>
+    </div>
+    </button>
+</div>
+
+
+<div class="or my-2 flex justify-around items-center">
+    <hr>
+    OR
+    <hr>
+</div>
+
+
+<form action="" class="login" name="login" method="post">
+
+<div class="input_box">
+    <input type="text" placeholder="Username" name="username">
+</div>
+
+<div class="input_box">
+    <input type="password" placeholder="Password" name="username">
+</div>
+
+<div class="flex justify-between items-center">
+<div class="remember-me flex items-center">
+    <div class="check-circle mx-1 flex align-items justify-center">
+        <div class="checked"></div>
+        <input type="checkbox" name="remember-login" id="remember" checked>
+    </div>
+    <span >Remember Me</span>
+</div>
+
+<a href="">Forgot Password?</a>
+</div>
+
+<div class="input_box">
+    <input type="submit" value="Login">
+</div>
+
+</form>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+
+<div class="image">
+
+<img src="/img/Linth.svg" alt="">
+</div>
+
+</section>
+
+
+
+
+<script>
+const customCheckBox = document.querySelector('#login .remember-me .check-circle');
+const CheckBox = document.querySelector('#login .remember-me input[type=checkbox]');
+
+CheckBox.addEventListener('change',function(e) {
+if(this.checked){
+    customCheckBox.classList.add('active')
+}else{
+    customCheckBox.classList.remove('active')
+}
+})
+</script>
+</body>
+</html>

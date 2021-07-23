@@ -1,0 +1,132 @@
+#login{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+#login .cont{
+width: 80%;
+margin: auto;
+padding: 0 50px;
+}
+#login .image{
+  /* background: #fff; */
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+}
+#login .image img{
+position: absolute;
+height: 100%;
+}
+#login a{
+   font-size: 14px;
+   color:  var(--green-10);
+   transition: 0.4s ease-out;
+}
+#login a:hover{
+ color: var(--green);
+}
+#login .or {
+opacity: .5;
+}
+#login .or > *{
+   margin: 0 6px;
+   width: 100%;
+}
+
+/*  */
+
+#login button{
+    position: relative;
+    font-family: inherit;
+    margin: 6px 10px;
+    padding: 10px;
+    border: 1px solid var(--green);
+}
+
+
+#login button ._btn-icon{
+margin: 0 6px;
+font-size: 18px;
+}
+
+#login .heading{
+line-height: 1;
+}
+#login .heading h1{
+font-size: 2rem;
+padding: 6px 0;
+}
+#login .heading p{
+letter-spacing: 3px;
+opacity: .5;
+font-size: 12px;
+}
+
+/*  */
+#login .login_with{
+margin: 20px 0;
+}
+
+#login .input_box{
+position: relative;
+display: flex;
+margin: 25px 0;
+align-items: center;
+width: 100%;
+}
+
+#login .input_box input{
+width: 100%;
+padding:15px 12px;
+outline: none;
+font-family: inherit;
+background: var(--very-dark);
+border-radius: 6px;
+font-family: inherit;
+border-color: transparent;
+font-size: 14px;
+}
+#login .input_box input[type=submit]{
+background: var(--green);
+}
+
+/*  */
+#login .remember-me{
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--green-10);
+    user-select: none;
+}
+#login .remember-me input[type=checkbox]{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+}
+#login .remember-me .check-circle{
+position: relative;
+width:30px;
+height: 30px;
+cursor: pointer;
+background: var(--very-dark);
+border-radius: 100%;
+}
+#login .remember-me .check-circle .checked{
+width:15px;
+height: 15px;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+left: 50%;
+display: flex;
+border-radius: 100%;
+background: var(--green);
+opacity: 0;
+transition: opacity 0.2s ease-in-out;
+}
+
+#login .remember-me .check-circle.active .checked{
+    opacity: .5;
+}

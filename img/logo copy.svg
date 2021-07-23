@@ -3,7 +3,7 @@
   <defs>
     <linearGradient x1="-2.2311678" y1="-2.0509677" x2="0.5" y2="1" id="gradient_1">
       <stop offset="0" stop-color="#D37D01" />
-      <stop offset="1" stop-color="#01D3B0" />
+      <stop offset="1" stop-color="#09A854" />
     </linearGradient>
     <path d="M0 0L174 0L174 38.6667L0 38.6667L0 0Z" id="path_1" />
     <clipPath id="mask_1">
