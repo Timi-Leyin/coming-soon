@@ -470,7 +470,9 @@
 <script src="./js/gsap.min.js"></script>
 
 <script>
-const tl=gsap.timeline();
+const tl=gsap.timeline({onComplete:()=>{
+  document.querySelector('#loader-load ').style.display="none"
+}});
 tl.add('#loader-load svg #HIRE-OR-GET-HIRED',1,{
   stroke:'none',
   fill:'none'
@@ -495,7 +497,7 @@ fill:'white',
 
 
 window.addEventListener('load',()=>{
-document.querySelector('#loader-load ').style.display="none"
+
 // PARALLAX EFFECT
 
 function parallax(parent) {
