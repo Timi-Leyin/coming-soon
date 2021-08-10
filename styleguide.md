@@ -55,6 +55,8 @@ The designs were created to the following widths:
 ### Body Copy
 
 - Font size: 15px
+- 3rem
+- 1rem
 
 ### Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap')
@@ -69,7 +71,7 @@ The designs were created to the following widths:
 
 ## Icons
 
-We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
+I provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
