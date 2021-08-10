@@ -7,9 +7,14 @@
   window.addEventListener("DOMContentLoaded", () => {
       setTimeout(()=>{
       document.querySelector("#loader-load ").style.opacity = 0;
+      try{
+        AOS.init();
+    }
+    catch(err){}
     //   document.querySelector("#loader-load ").style.visibility = "hidden";
       },500)
     // PARALLAX EFFECT
+
 
     function parallax(parent) {
       let element;
