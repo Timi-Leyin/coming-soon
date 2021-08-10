@@ -1,40 +1,14 @@
-const tl = gsap.timeline({
-    onComplete: () => {
-      document.querySelector("#loader-load ").style.display = "none";
-    },
-  });
-  tl.add(
-    "#loader-load svg #HIRE-OR-GET-HIRED",
-    1,
-    {
-      stroke: "none",
-      fill: "none",
-    },
-    -1
-  );
+// const tl = gsap.timeline({
+//     onComplete: () => {
+//     },
+//   });
+ 
 
-  tl.fromTo(
-    "#loader-load svg path",
-    2,
-    {
-      fill: "none",
-      stroke: "white",
-      strokeDasharray: "500",
-      strokeDashoffset: 200,
-    },
-    {
-      strokeDasharray: "0",
-    }
-);
-  tl.to("#loader-load svg #smallH", 1, {
-    fill: "#09A854",
-  });
-
-  tl.to("#loader-load svg path:not(#smallH)", 2, {
-    fill: "white",
-  });
-
-  window.addEventListener("load", () => {
+  window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(()=>{
+      document.querySelector("#loader-load ").style.opacity = 0;
+    //   document.querySelector("#loader-load ").style.visibility = "hidden";
+      },500)
     // PARALLAX EFFECT
 
     function parallax(parent) {

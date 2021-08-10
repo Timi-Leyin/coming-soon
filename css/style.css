@@ -44,7 +44,7 @@ position: relative;
 scroll-behavior: smooth;
 min-height: 100vh;
 font-display: optional;
-font-family:poppins,  sans-serif !important;
+font-family:"Georama", sans-serif !important;
 background-color: var(--black);
 color: var(--white);
 }
@@ -187,6 +187,7 @@ color: var(--white);
   position: fixed;
   top: 0;
   left: 0;
+  transition: 0.4s ease-out opacity !important;
   height: 100%;
   width: 100%;
   z-index: 99;
@@ -200,8 +201,9 @@ color: var(--white);
   background-color: black;
 }
 #loader-load svg{
-  max-width:300px;
+  max-width:200px;
   margin: -3rem 20px 0 20px;
+  
 }
 #header{
   align-items: center;
