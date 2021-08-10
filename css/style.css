@@ -51,7 +51,6 @@ color: var(--white);
 body{
   max-width: 1440px;
   margin:auto;
-  background:linear-gradient(rgba(0, 0, 0, 0.824), black), url('/img/Hinterrhein.svg');
 }
 
 .custom-bg-1{
