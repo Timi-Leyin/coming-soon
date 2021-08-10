@@ -4,6 +4,9 @@
   border-sizing: border-box;
   --tw-ring-color: var(--green);
 }
+*[data-aos]{
+transition: 600ms;
+}
 
 :root{
   --green-due:#01D3B0;
