@@ -273,12 +273,12 @@ font-weight: bolder;
 #about{
   position: relative;
   margin-top: 3rem;
-  }
-  
-.about-info{
-  margin: 20px 0;
 }
 
+.about-us-text{
+  margin: 20px;
+
+}
 
 #about h2, #about h4{
 font-size:2.3rem;
