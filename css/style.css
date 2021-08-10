@@ -273,7 +273,7 @@ margin: 20px 10px 0 10px;
   display: flex;
   align-items: center;
   height: 250px;
-  margin: 20px auto;
+  margin: 50px 20px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.092);
   color: var(--white);
   width: 350px;
@@ -334,7 +334,7 @@ margin: 6px 0;
   justify-content: center;
   align-items: center;
   grid-gap: 10px;
-  grid-template-columns: 160px repeat(auto-fit, 150px);
+  grid-template-columns: 160px repeat(auto-fit, 100px);
 }
 #explore .heading{
   font-size: 30px;
@@ -346,8 +346,8 @@ margin: 6px 0;
  font-weight: bold;
 }
 .cat{
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 
   background-color: #fff;
 }
@@ -468,7 +468,7 @@ text-shadow: 0 0 2px var(--green);
   display: grid;
   clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
   background: var(--green);
-  color: var(--very-dark);
+  color: var(--white);
   overflow: hidden;
 }
 #cta .heading{
@@ -575,7 +575,7 @@ color: var(--green);
 opacity: 1;
 }
 #footer .logo{
-width: 100px;
+width: 180px;
 margin-right: 20px;
 }
 
